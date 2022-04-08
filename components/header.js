@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import style from "../styles/header/header.module.scss"
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
+import Link from 'next/link'
 // import { useState , useRef } from 'react/cjs/react.production.min';
 
 
@@ -48,7 +49,7 @@ function Sidebar() {
               <a href="#">Seeting</a>
             </li>
             <li>
-              <a href="#">Logout</a>
+              <Link href="/auth/login">Logout</Link>
             </li>
           </ul>
         </nav>

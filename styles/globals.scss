@@ -495,3 +495,34 @@ h1{
   padding: 15px 20px;
   display: block;
 }
+
+
+.hero.is-success {
+  background: #f2f6fa;
+}
+.hero .nav,
+.hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.box {
+  margin-top: 5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.languages {
+  margin-top: 10px;
+}
+
+.footer-text {
+  font-weight: initial;
+}
+.bg-img {
+  overflow-y: hidden !important;
+  background-image: url('../public/image/background.jpg') !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
